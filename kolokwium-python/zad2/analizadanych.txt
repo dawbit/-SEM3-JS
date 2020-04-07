@@ -1,0 +1,6 @@
+Osoba			Zy³ lat		Ur i Zm. w tym samym mieœcie		Ur i Zm. w tym samym kraju
+________________________________________________________________________________________________________________
+Jan Kowalski		****100		----------NIE-----------		TAK
+Micha³ Nowak		****100		----------TAK-----------		TAK
+Anna Piotrowska		****100		----------NIE-----------		NIE
+Anna Piotrowska2		*****-2		----------NIE-----------		TAK

@@ -1,0 +1,11 @@
+ Volume in drive C is OS
+ Volume Serial Number is CE5B-EA72
+
+ Directory of C:\Users\Dawid\Desktop\semestr 3\kolo_skrypt
+
+26.11.2018  22:03                99 1.bat
+26.11.2018  21:09               189 11.bat
+26.11.2018  21:39               145 111.bat
+26.11.2018  22:09                39 1v2.bat
+               4 File(s)            472 bytes
+               0 Dir(s)  713ÿ553ÿ936ÿ384 bytes free

@@ -1,0 +1,152 @@
+zad1
+
+@echo off
+@echo off & setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
+set /p dane=<dane_wejsciowe.txt
+set LOOKUP=0123456789abcdef &set HEXSTR=&set PREFIX=
+if %dane%=="" echo 0&goto :EOF
+set /a A=%dane% || exit /b 1
+if !A! LSS 0 set /a A=0xfffffff + !A! + 1 & set PREFIX=f
+:loop
+set /a B=!A! %% 16 & set /a A=!A! / 16
+set HEXSTR=!LOOKUP:~%B%,1!%HEXSTR%
+if %A% GTR 0 goto :loop
+echo %PREFIX%%HEXSTR%
+echo %PREFIX%%HEXSTR% >> dane_wyjsciowe.txt
+goto :EOF
+
+zadv2
+
+@echo off
+for /f "tokens=*" %%a in (dane_wejsciowe1.txt) do call :processline %%a
+
+pause
+goto :eof
+
+:processline
+call cmd /c exit /b %*
+set hex=%=exitcode%
+for /f "tokens=* delims=0" %%N in ("%hex%") do set "hex=%%N"
+if "%hex:~0,2%"=="00" set "hex=0"
+
+echo %hex% >> dane_wyjsciowe1.txt
+
+goto :eof
+
+:eof
+
+
+===
+
+@echo off
+for /f "tokens=*" %%a in (dane_wejsciowe.txt) do call :processline %%a
+
+pause
+goto :eof
+
+:processline
+  set HEX=%*
+  set /a DEC=0x%HEX%
+  echo %DEC% >> dane_wyjsciowe.txt
+
+goto :eof
+
+:eof
+hex na dec
+
+
+===
+
+
+@echo off & setlocal
+set /p dane=<dane_wejsciowe2.txt
+set s=%dane%
+
+call :sub1 %s%
+exit /b
+:sub1
+if "%1"=="" exit /b
+call cmd /c exit /b %1
+set hex=%=exitcode%
+for /f "tokens=* delims=0" %%N in ("%hex%") do set "hex=%%N"
+echo %hex% >> dane_wyjsciowe2.txt
+
+
+X X X X X
+
+ZAD2
+
+@echo off
+set loc=%1
+set /p string=<%loc%
+
+echo Przed zmiana:
+echo %string%
+
+setlocal enableDelayedExpansion
+
+set "replaceWith=."
+for %%i in ('%string%') do (
+set string=!string:\=%replaceWith%!
+)
+
+echo Po zmianie:
+echo %string%
+
+ZADv2
+
+@echo off
+setlocal enableextensions disabledelayedexpansion
+set "textFile=%1"
+set "search=%2"
+set "replace=%3"
+
+for /f "delims=" %%i in ('type "%textFile%" ^& break ^> "%textFile%" ') do (
+set "line=%%i"
+setlocal enabledelayedexpansion
+set "line=!line:%search%=%replace%!"
+>>"%textFile%" echo(!line!
+endlocal
+)
+
+X X X X X
+
+zad3
+
+@echo off
+for %%a in (*.txt) do (
+set /p "=%%a " <nul >>zad3output.txt
+call zad.exe %%a >> zad3output.txt
+echo( >>zad3output.txt
+)
+
+cpp:
+
+#include <fstream>
+#include <iostream>
+
+using namespace std;
+  
+int main(int argc, char* argv[]){
+
+    string linia;
+    int slowa = 1;
+    fstream plik;
+    
+	plik.open(argv[1], std::ios::in | std::ios::out);
+	
+	if( plik.good() == true ){
+		while(plik.good() && getline(plik, linia, '\n')){
+        	int l=linia.length();
+            
+        	for (int i=0;i<l;i++){
+        		if (isspace(linia[i])) slowa++;
+    		}   		
+        }
+        cout<<slowa;
+        plik.close();
+	} 
+	//else cout << "Nie otworzono pliku";
+	
+	return 0;
+}

@@ -1,0 +1,16 @@
+ Volume in drive C is OS
+ Volume Serial Number is CE5B-EA72
+
+ Directory of C:\Users\Dawid\Desktop\semestr 3\kolo_skrypt
+
+26.11.2018  21:56                33 bg-versionheh.txt
+26.11.2018  21:55                33 bg-versiontest.txt
+26.11.2018  22:00               831 bg-versiontxt.txt
+26.11.2018  21:23               613 plik.txt
+25.11.2018  22:39             2ÿ658 skryptr.txt
+26.11.2018  22:11             1ÿ874 wynik.txt
+26.11.2018  22:09               403 wynikpodalem.txt
+26.11.2018  22:09               588 wyniktestowy.txt
+26.11.2018  22:14                 0 wyniktxt.txt
+               9 File(s)          7ÿ033 bytes
+               0 Dir(s)  713ÿ552ÿ994ÿ304 bytes free

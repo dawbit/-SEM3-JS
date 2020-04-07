@@ -1,0 +1,4 @@
+wykonaj skrypt tworz¹cy listê plików tekstowych w bie¿¹cym katalogu, z dok³adym przeliczeniem ile s³ów znajduje siê w ka¿dym z plików. Do tego celu mo¿esz stworzyæ managera, który wykorzysta np. odpowiedni program licz¹cy iloœæ s³ów napisany w innym jêzyku.
+
+kocham sie
+w tobie

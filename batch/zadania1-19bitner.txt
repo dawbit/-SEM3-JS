@@ -1,0 +1,41 @@
+1)
+diskpart
+list disk
+2)
+dir C: /N
+dir D: /N
+3)
+Clipbrd
+4)
+dir C:\Users\dawid.bitner\*.* /b
+dir C:\Users\dawid.bitner\*.* /p
+5) 
+tree C:\
+6)
+fc C:\Users\dawid.bitner\plik1.txt C:\Users\dawid.bitner\plik2.txt
+7)
+forfiles /m *.* /c "cmd /c copy @path wczesniej_niz_4_miesiace\@file" /d -120
+8)
+type C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\*.*
+9)
+fc C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\test1.txt C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\test2.txt
+10)
+ver
+11)
+systeminfo
+12)
+forfiles /m *.exe
+13)
+ping
+14)
+tasklist
+15)
+sort C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\test.txt /O C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\test.txt
+16)
+winchat
+17)
+copy /B C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\*.txt C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\wynik.txt
+18)
+attrib +a C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\wynik.txt 
+19)
+del C:\Users\dawid.bitner\wczesniej_niz_4_miesiace\*.txt

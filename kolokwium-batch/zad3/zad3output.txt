@@ -1,0 +1,5 @@
+arkagdynia.txt 4 
+kochammarcina.txt 7 
+zad3.txt 40 
+zad3output.txt  
+zad99.txt 1 

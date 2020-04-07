@@ -1,0 +1,7 @@
+inputFile = open(“danezadanie93.txt”, ‘r’)
+inTxt = inputFile.read()
+inputFile.close()
+outTxt = inTxt.upper()
+outputFile = open(“wyjsciezadanie93.txt”, ‘w’)
+print(outTxt, file=outputFile)
+outputFile.close()

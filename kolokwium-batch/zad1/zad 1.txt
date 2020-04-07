@@ -1,0 +1,2 @@
+Wykonaj skrypt, który przeliczy liczby w systemie dziesiêtnym zapisane w pliku tekstowym dane_wejsciowe.txt na liczby w systemie szesnastkowym.
+Liczby przelciczone zostan¹ zapisane do pliku dane_wyjsciowe.txt

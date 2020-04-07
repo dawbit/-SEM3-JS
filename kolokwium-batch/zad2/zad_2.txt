@@ -1,0 +1,2 @@
+Wykonaj skrypy, który zamieni w treœci wskazanego jako argument pliku tekstowego wybrane s³owo na inne s³owo. S³owo do zamiany oraz s³owo podstawiane 
+w jego miejsce pobieraj jako kolejne argumenty wejœciowe skryptu

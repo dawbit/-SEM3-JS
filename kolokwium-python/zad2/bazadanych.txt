@@ -1,0 +1,4 @@
+Jan Kowalski,01.01.1914,Gliwice,Polska,01.01.2014,Katowice,Polska,
+Micha³ Nowak,01.01.1914,Gliwice,Polska,01.01.2014,Gliwice,Polska,
+Anna Piotrowska,01.01.1914,Gliwice,Polska,01.01.2014,Pary¿,Francja,
+Anna Piotrowska2,01.01.2016,Gliwice,Polska,01.01.2014,Pary¿,Polska,

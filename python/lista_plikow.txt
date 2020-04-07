@@ -1,0 +1,9 @@
+ Volume in drive C is OS
+ Volume Serial Number is CE5B-EA72
+
+ Directory of C:\test
+
+06.11.2018  17:17                 0 test1.txt
+06.11.2018  17:17                10 test2.txt
+               2 File(s)             10 bytes
+               0 Dir(s)  716ÿ867ÿ502ÿ080 bytes free
